@@ -1,0 +1,27 @@
+void main() {
+  // String concatenation
+  String part1 = "Hello";
+  String part2 = "World";
+  String concatenated = part1 + " " + part2;
+  print("Concatenated: $concatenated");
+
+  // String interpolation
+  String name = "Alice";
+  print("Hello, $name!");
+
+  // Substring extraction
+  String text = "Dart Programming";
+  String subText = text.substring(0, 4); // Extract "Dart"
+  print("Substring: $subText");
+
+  // Case conversion
+  print("Uppercase: ${text.toUpperCase()}");
+  print("Lowercase: ${text.toLowerCase()}");
+
+  // Reverse a string
+  String reversed = text.split('').reversed.join();
+  print("Reversed: $reversed");
+
+  // Count string length
+  print("Length: ${text.length}");
+}
